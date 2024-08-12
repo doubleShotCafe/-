@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/-/static/css/main.56bdae09.css",
-    "main.js": "/-/static/js/main.c9d44a66.js",
+    "main.js": "/-/static/js/main.1c480b8a.js",
     "static/js/453.332e6406.chunk.js": "/-/static/js/453.332e6406.chunk.js",
     "static/media/s blue.jpg": "/-/static/media/s blue.8e2ce6f9fc4ee52f85b2.jpg",
     "static/media/mojito.png": "/-/static/media/mojito.b4135d1b597796456281.png",
@@ -32,6 +32,7 @@
     "static/media/hot chocolate.jpg": "/-/static/media/hot chocolate.74d99a2495fb7eaf85d5.jpg",
     "static/media/orange.jpg": "/-/static/media/orange.d76730e78d54c4059327.jpg",
     "static/media/latte.webp": "/-/static/media/latte.246a6c7d1d3a67474326.webp",
+    "static/media/iced tea.jpg": "/-/static/media/iced tea.72758cd4f9a40507a282.jpg",
     "static/media/double1.jpg": "/-/static/media/double1.308eb4511e6b921ffccb.jpg",
     "static/media/americano.jpg": "/-/static/media/americano.025fdd092f51cae73409.jpg",
     "static/media/s kiwi.jpg": "/-/static/media/s kiwi.a8dde9ec2613682dbb38.jpg",
@@ -80,11 +81,11 @@
     "static/media/frensh.webp": "/-/static/media/frensh.cbc74085ee06798c6a76.webp",
     "index.html": "/-/index.html",
     "main.56bdae09.css.map": "/-/static/css/main.56bdae09.css.map",
-    "main.c9d44a66.js.map": "/-/static/js/main.c9d44a66.js.map",
+    "main.1c480b8a.js.map": "/-/static/js/main.1c480b8a.js.map",
     "453.332e6406.chunk.js.map": "/-/static/js/453.332e6406.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56bdae09.css",
-    "static/js/main.c9d44a66.js"
+    "static/js/main.1c480b8a.js"
   ]
 }
