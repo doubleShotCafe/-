@@ -5,7 +5,7 @@ import { menuItems as items } from '../../data';
 
 
 function CafeMenu() {
-  const categories = ['Hot Drinks', 'Hot caffeine', 'Iced caffeine', 'Cold Drinks', 'smoothie', 'milkshake', 'Waffle', 'Desserts', 'special coffee', 'Soda', 'Soft drinks' , 'Extra'];
+  const categories = ['Hot Beverages', 'Cold Beverages', 'Fresh Juice', 'smoothie', 'milkshake', 'Waffle', 'Desserts', 'special coffee', 'Soda', 'Soft drinks' , 'Extra'];
   const [selectedCategory, setSelectedCategory] = useState('Hot caffeine');
   const cardRefs = useRef([]);
   const [animationKey, setAnimationKey] = useState(0);

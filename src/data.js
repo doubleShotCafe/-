@@ -73,11 +73,12 @@ import nuts from '../src/images/products/extra/nuts.jpg'
 import whipped2 from '../src/images/products/extra/whipped.jpg'
 import iceCream from '../src/images/products/extra/ice cream.jpg'
 import flavor from '../src/images/products/extra/Flavor.jpg'
+import icedTea from '../src/images/products/iced/iced tea.jpg'
 
 export const menuItems = [
     {
         id: 1,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: ' ايس لاتيه',
         description: 'iced late',
         price: '55 LE - 65 LE',
@@ -85,7 +86,7 @@ export const menuItems = [
     },
     {
         id: 2,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: 'ايس موكا',
         description: 'iced mocha ',
         price: '65 LE - 75 LE',
@@ -93,7 +94,7 @@ export const menuItems = [
     },
     {
         id: 3,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: ' ايس كراميل',
         description: 'Iced caramel',
         price: '65 LE - 75 LE',
@@ -101,7 +102,7 @@ export const menuItems = [
     },
     {
         id: 4,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: 'ايس فستق',
         description: 'Iced pistachio ',
         price: '90 LE - 100 LE',
@@ -109,7 +110,7 @@ export const menuItems = [
     },
     {
         id: 5,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: 'ايس امريكانو',
         description: 'Iced Americano ',
         price: '50 LE - 55 LE',
@@ -117,23 +118,23 @@ export const menuItems = [
     },
     {
         id: 6,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: ' ايس ماتشا',
         description: 'Iced matcha',
         price: '60 LE - 70 LE',
         image: icedMatcha
     },
-    {
-        id: 7,
-        category: 'Iced caffeine',
-        name: 'فرابتشينو',
-        description: 'Frappuccino',
-        price: '75 LE - 85 LE',
-        image: frapiccuino
-    },
+    // {
+    //     id: 7,
+    //     category: 'Cold Beverages',
+    //     name: 'فرابتشينو',
+    //     description: 'Frappuccino',
+    //     price: '75 LE - 85 LE',
+    //     image: frapiccuino
+    // },
     {
         id: 8,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: 'فرابيه',
         description: 'Frappe',
         price: '70 LE - 80 LE',
@@ -141,7 +142,7 @@ export const menuItems = [
     },
     {
         id: 9,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: 'موز حليب  ',
         description: 'Banana milk ',
         price: '55 LE - none',
@@ -149,7 +150,7 @@ export const menuItems = [
     },
     {
         id: 10,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: 'ليمون نعناع',
         description: 'Lemon mint',
         price: '50 LE - none',
@@ -157,7 +158,7 @@ export const menuItems = [
     },
     {
         id: 11,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: ' كيوي',
         description: 'kiwi',
         price: '65 LE - none',
@@ -165,7 +166,7 @@ export const menuItems = [
     },
     {
         id: 12,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: ' برتقال',
         description: 'orange',
         price: '55 LE - none',
@@ -173,7 +174,7 @@ export const menuItems = [
     },
     {
         id: 13,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: ' مانجو',
         description: 'mango',
         price: '65 LE - none',
@@ -181,7 +182,7 @@ export const menuItems = [
     },
     {
         id: 14,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: ' فراوله',
         description: 'Strawberry',
         price: '55 LE - none',
@@ -189,7 +190,7 @@ export const menuItems = [
     },
     {
         id: 15,
-        category: 'Cold Drinks',
+        category: 'Fresh Juice',
         name: ' جوافه',
         description: 'Guava',
         price: '55 LE - none',
@@ -197,7 +198,7 @@ export const menuItems = [
     },
     {
         id: 16,
-        category: 'Hot Drinks',
+        category: 'Hot Beverages',
         name: ' شاي ',
         description: 'chai',
         price: '35 LE - none',
@@ -205,7 +206,7 @@ export const menuItems = [
     },
     {
         id: 17,
-        category: 'Hot Drinks',
+        category: 'Hot Beverages',
         name: ' شاي فليفر ',
         description: 'Flavor tea',
         price: '40 LE - none',
@@ -213,7 +214,7 @@ export const menuItems = [
     },
     {
         id: 18,
-        category: 'Hot Drinks',
+        category: 'Hot Beverages',
         name: ' شاي لاتيه',
         description: 'chai latte',
         price: '45 LE - 55 LE',
@@ -221,7 +222,7 @@ export const menuItems = [
     },
     {
         id: 19,
-        category: 'Hot Drinks',
+        category: 'Hot Beverages',
         name: ' ماتشا',
         description: 'matcha',
         price: '50 LE - 55 LE',
@@ -229,7 +230,7 @@ export const menuItems = [
     },
     {
         id: 20,
-        category: 'Hot Drinks',
+        category: 'Hot Beverages',
         name: ' هوت شوكليت',
         description: 'Hot Chocolate',
         price: '55 LE - 60 LE',
@@ -237,7 +238,7 @@ export const menuItems = [
     },
     {
         id: 21,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' قهوه تركي',
         description: 'Turkish coffee',
         price: '40 LE - 45 LE',
@@ -245,7 +246,7 @@ export const menuItems = [
     },
     {
         id: 22,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' قهوه فرنساوي',
         description: 'French coffee',
         price: '45 LE - 50 LE',
@@ -253,7 +254,7 @@ export const menuItems = [
     },
     {
         id: 23,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' قهوه فليفر',
         description: 'Flavor coffee',
         price: '45 LE - 50 LE',
@@ -261,7 +262,7 @@ export const menuItems = [
     },
     {
         id: 24,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' اسبريسو',
         description: 'Espresso',
         price: '40 LE - 45 LE',
@@ -269,7 +270,7 @@ export const menuItems = [
     },
     {
         id: 25,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' امريكانو',
         description: 'Americano coffee',
         price: '50 LE - 55 LE',
@@ -277,7 +278,7 @@ export const menuItems = [
     },
     {
         id: 26,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' كابتشينو',
         description: 'Cappuccino',
         price: '55 LE - 65 LE',
@@ -285,7 +286,7 @@ export const menuItems = [
     },
     {
         id: 27,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' لاتيه',
         description: 'Latte',
         price: '55 LE - 65 LE',
@@ -293,7 +294,7 @@ export const menuItems = [
     },
     {
         id: 28,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' فلات وايت',
         description: '65 LE - none',
         price: '65 LE - none',
@@ -301,7 +302,7 @@ export const menuItems = [
     },
     {
         id: 29,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' كورتادو',
         description: 'Cortado',
         price: '55 LE - none',
@@ -309,7 +310,7 @@ export const menuItems = [
     },
     {
         id: 30,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' سبانيش لاتيه ',
         description: 'Spanish latte',
         price: '65 LE - 75 LE',
@@ -317,7 +318,7 @@ export const menuItems = [
     },
     {
         id: 31,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' نسكافيه بلاك  ',
         description: 'Nescafe Black',
         price: '40 LE - 45 LE',
@@ -325,7 +326,7 @@ export const menuItems = [
     },
     {
         id: 32,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' نسكافيه حليب',
         description: 'Nescafe milk',
         price: '50 LE - 60 LE',
@@ -333,7 +334,7 @@ export const menuItems = [
     },
     {
         id: 33,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: ' موكا',
         description: 'Mocha',
         price: '65 LE - 75 LE',
@@ -477,7 +478,7 @@ export const menuItems = [
     },
     {
         id: 52,
-        category: 'Iced caffeine',
+        category: 'Cold Beverages',
         name: 'Spanish latte',
         description: 'سبانيش لاتيه',
         price: '65 LE - 75 LE',
@@ -678,11 +679,19 @@ export const menuItems = [
     },
     {
         id: 76,
-        category: 'Hot caffeine',
+        category: 'Hot Beverages',
         name: 'michato',
         description: 'ميكاتو',
         price: '45 LE - 50 LE',
         image: cappuchino
+    },
+    {
+        id: 77,
+        category: 'Cold Beverages',
+        name: 'Ice Tea',
+        description: 'ايس تي',
+        price: '50 LE - none',
+        image: icedTea
     },
     
 ];
