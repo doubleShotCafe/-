@@ -168,11 +168,131 @@
   padding-top: 10px;
   border-radius: 10px;
 }
-.card-subtitle{
+.card-subtitle {
   color: white !important;
   font-size: 15px !important;
   padding: 3px 6px !important;
   background-color: #432813 !important;
   border: 1px solid #432813 !important;
   cursor: none !important;
+}
+
+.social-menu {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0px 30px;
+  h2 {
+    text-align: center;
+    color: #ffe6a6;
+  }
+}
+.social-menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-menu ul li {
+  list-style: none;
+  /* margin: 0 15px; */
+}
+
+.social-menu ul li .fab {
+  font-size: 24px;
+  line-height: 60px;
+  transition: 0.3s;
+  color: #ffe6a6;
+}
+
+.social-menu ul li .fab:hover {
+  color: #fff;
+}
+
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0);
+  background-color: #432813;
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(1) a:hover svg {
+  color: #fff !important;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #000;
+}
+
+/* categoriesSelection */
+.categoriesSelection {
+  background-color: #ffe6a6 !important;
+  width: 100% !important;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+}
+.categoriesSelection .SingleCatContainer {
+  background-color: #ffe6a6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 7px;
+  /* gap: 5px; */
+    svg {
+    color: #432813;
+    font-size: 30px;
+  }
+  width: 120px;
+  height: 120px !important;
+  h4{
+    font-size: 17px;
+    color: #432813;
+    margin-bottom: 0px  ;
+    font-family: monospace;
+  }
+  border: 2px #432813 solid;
+}
+.selectionActive{
+  background-color: #432813 !important;
+  svg {
+    color: #ffe6a6 !important;
+  }
+  h4{
+    color: #ffe6a6 !important;
+  }
+}
+.swiper-pagination-bullet {
+  background-color: #777 !important;
+  border: 1px solid #777; /* Change to your desired color */
+}
+.swiper-pagination-bullet-active {
+  background-color: #432813 !important;
+  width: 12px !important;
+  height: 12px !important; /* Active bullet color */
+}
+.swiper-pagination-bullets{
+  top: 100px !important;
 }
