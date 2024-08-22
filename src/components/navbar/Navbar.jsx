@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-custom">
             <div className="container-fluid">
                 <NavLink className="navbar-brand font1 color1" to="/">
-                    <img src={Logo} alt="Brand Logo" width="30" height="30" className="d-inline-block align-top " />
+                    <img style={{border:"1px solid #432813" , borderRadius:"50%"}} src={Logo} alt="Brand Logo" width="40" height="40" className="d-inline-block align-top " />
                     Double Shot
                 </NavLink>
                 <button className="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
