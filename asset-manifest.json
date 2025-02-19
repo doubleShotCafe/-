@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/-/static/css/main.7d8e9000.css",
-    "main.js": "/-/static/js/main.931e286b.js",
+    "main.js": "/-/static/js/main.0b89d680.js",
     "static/js/453.332e6406.chunk.js": "/-/static/js/453.332e6406.chunk.js",
     "static/media/s blue.jpg": "/-/static/media/s blue.8e2ce6f9fc4ee52f85b2.jpg",
     "static/media/mojito.png": "/-/static/media/mojito.b4135d1b597796456281.png",
@@ -19,6 +19,7 @@
     "static/media/6.jpg": "/-/static/media/6.5dd92ce4c88a91a37e92.jpg",
     "static/media/ice mocha.jpg": "/-/static/media/ice mocha.8145734d0c1e689d106a.jpg",
     "static/media/s mix.jpeg": "/-/static/media/s mix.558a50b6aeb85147f18a.jpeg",
+    "static/media/oriental.jpg": "/-/static/media/oriental.93087d26048323bda098.jpg",
     "static/media/cappuc.png": "/-/static/media/cappuc.7a1e6901cbb9b4aed906.png",
     "static/media/chai late.jpg": "/-/static/media/chai late.f22510766adeedf5d662.jpg",
     "static/media/kiwi.png": "/-/static/media/kiwi.e62bfbdf532c1307f549.png",
@@ -27,13 +28,16 @@
     "static/media/s passion.webp": "/-/static/media/s passion.b7bfeeb4f0009c3c4cb0.webp",
     "static/media/logo.png": "/-/static/media/logo.da475d0e700836ab6ffc.png",
     "static/media/molten.jpg": "/-/static/media/molten.723b105dcb5b29f4624c.jpg",
+    "static/media/cont.jpg": "/-/static/media/cont.e4f3bd88196485084766.jpg",
     "static/media/iced spanish late.jpg": "/-/static/media/iced spanish late.89257c23c41990b8f626.jpg",
     "static/media/espresso.jpg": "/-/static/media/espresso.69b879f88e857da7ea14.jpg",
     "static/media/wlotus.jpg": "/-/static/media/wlotus.48376fcd33ddeab850ef.jpg",
     "static/media/turkish.png": "/-/static/media/turkish.ad7992bfd10ff2cd3862.png",
+    "static/media/sandwich.jpg": "/-/static/media/sandwich.e2f12a4a648bdea78390.jpg",
     "static/media/frape.png": "/-/static/media/frape.e65a2d4a6d3dc831d78e.png",
     "static/media/mstra.webp": "/-/static/media/mstra.66e6a0998ebb8dd1c518.webp",
     "static/media/wchoclate.webp": "/-/static/media/wchoclate.c2f8704c79b4b1f09c14.webp",
+    "static/media/omlete.jpg": "/-/static/media/omlete.8303f34b2aaa1b2fd84c.jpg",
     "static/media/bluepassion.jpg": "/-/static/media/bluepassion.d435c98884c71b46bf58.jpg",
     "static/media/s cola.jpg": "/-/static/media/s cola.7dc23d745692e5505d91.jpg",
     "static/media/nuts.jpg": "/-/static/media/nuts.b0202b14ea2e6b8702be.jpg",
@@ -49,9 +53,11 @@
     "static/media/s water.jpg": "/-/static/media/s water.79d3d642f1c6718e9e21.jpg",
     "static/media/s limon mint.jpg": "/-/static/media/s limon mint.b6e3e791a7cc5648d0a2.jpg",
     "static/media/wfour.jpg": "/-/static/media/wfour.78289a2f05824f0a208f.jpg",
+    "static/media/corw.jpg": "/-/static/media/corw.d6334c7663a3c2439578.jpg",
     "static/media/v60.webp": "/-/static/media/v60.76b852b4f42c67249951.webp",
     "static/media/s roseberry.jpg": "/-/static/media/s roseberry.01f92ff5acae3711eb6e.jpg",
     "static/media/s blue corasion.jpg": "/-/static/media/s blue corasion.8cb7e5f6b1a782cc2021.jpg",
+    "static/media/american.webp": "/-/static/media/american.77cf29a113a1cd8da381.webp",
     "static/media/str.jpg": "/-/static/media/str.c3f3e1a914c1f8fa7d08.jpg",
     "static/media/sunshine.jpg": "/-/static/media/sunshine.f0cbc96bd2ad42b58be8.jpg",
     "static/media/whalf.jpg": "/-/static/media/whalf.fe846ba2dd1191363de4.jpg",
@@ -63,6 +69,7 @@
     "static/media/wwhite.webp": "/-/static/media/wwhite.b12fb730ba9c267f5162.webp",
     "static/media/mchoclate.jpg": "/-/static/media/mchoclate.7f03e20ba2c124732de1.jpg",
     "static/media/mblue.jpg": "/-/static/media/mblue.4fba705be53dcd0a53a9.jpg",
+    "static/media/toast.jpg": "/-/static/media/toast.e0214e90be65511f5ef8.jpg",
     "static/media/nes milk.jpg": "/-/static/media/nes milk.d5dc5b6ef8af5f96a86c.jpg",
     "static/media/cinabon.jpg": "/-/static/media/cinabon.b0cdebad43367ee36b23.jpg",
     "static/media/hayat.webp": "/-/static/media/hayat.738e94255ba4ffeaa645.webp",
@@ -82,6 +89,7 @@
     "static/media/nescafe black.jpg": "/-/static/media/nescafe black.0ee8b442cdf148d311cc.jpg",
     "static/media/twist.jpg": "/-/static/media/twist.8c2a405b9b7196c8e11d.jpg",
     "static/media/mcaramel.jpg": "/-/static/media/mcaramel.b7794595921e43570465.jpg",
+    "static/media/ban.jpeg": "/-/static/media/ban.0f83a75e2ec76dc41fcb.jpeg",
     "static/media/mvanillia.jpg": "/-/static/media/mvanillia.7ea990651027adaf94a8.jpg",
     "static/media/Flavor.jpg": "/-/static/media/Flavor.22b6390aaa9bd3b5e746.jpg",
     "static/media/whipped.jpg": "/-/static/media/whipped.126a913610d9549c843b.jpg",
@@ -91,11 +99,11 @@
     "static/media/frensh.webp": "/-/static/media/frensh.cbc74085ee06798c6a76.webp",
     "index.html": "/-/index.html",
     "main.7d8e9000.css.map": "/-/static/css/main.7d8e9000.css.map",
-    "main.931e286b.js.map": "/-/static/js/main.931e286b.js.map",
+    "main.0b89d680.js.map": "/-/static/js/main.0b89d680.js.map",
     "453.332e6406.chunk.js.map": "/-/static/js/453.332e6406.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d8e9000.css",
-    "static/js/main.931e286b.js"
+    "static/js/main.0b89d680.js"
   ]
 }
